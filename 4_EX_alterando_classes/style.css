@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+
+button {
+    /*!important - altera a ordem de importância*/
+    /*background-color: blueviolet !important*/
+    
+}
+
+.btn-primary {
+    background-color: blueviolet;
+    border: none;
+}
+
+/*___________________________________________________________*/
+/* Breakpoint(Quebra de linha) */
+
+/*Extra small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px*/
+
+/* Tamanho md (médio) */
+@media (min-width: 768px) {
+    h1 {
+        color: blue;
+    }
+}
