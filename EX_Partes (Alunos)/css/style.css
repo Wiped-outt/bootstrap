@@ -1,0 +1,43 @@
+body {
+    background-color: #333 !important;
+}
+
+.navbar {
+    background-color: #333 !important;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #fff !important;
+}
+
+.caurosel {
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.caurosel-item img {
+    height: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.cartões {
+    width: 90%;
+    height: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .cartões {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
